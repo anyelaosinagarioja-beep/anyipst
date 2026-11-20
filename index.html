@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Cruz de la Sierra - Tierra Camba</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <span class="flag-icon">
+                    <span class="stripe green"></span>
+                    <span class="stripe white"></span>
+                    <span class="stripe green"></span>
+                </span>
+                Santa Cruz
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                &#9776;
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <a href="#inicio">Inicio</a>
+                <a href="#historia">Reseña Histórica</a>
+                <a href="#gastronomia">Comidas Típicas</a>
+                <a href="#curiosidades">Curiosidades</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">Corazón de Sudamérica</span>
+            <h1>Santa Cruz de la Sierra</h1>
+            <p>Tierra hospitalaria, pujante y llena de tradición en el oriente boliviano. Descubre su historia, su exquisita gastronomía y su cultura única.</p>
+            <div class="hero-buttons">
+                <a href="#historia" class="btn btn-primary">Explorar Historia</a>
+                <a href="#curiosidades" class="btn btn-outline">Ver Curiosidades</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Reseña Histórica -->
+    <section id="historia" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Nuestros Orígenes</span>
+                <h2>Reseña Histórica</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="history-grid">
+                <div class="history-text">
+                    <p><strong>Santa Cruz de la Sierra</strong> fue fundada el <strong>26 de febrero de 1561</strong> por el capitán español <strong>Ñuflo de Chaves</strong>, a orillas del arroyo Sutós, en la serranía de Chiquitos. El nombre fue elegido en honor a su ciudad natal en Extremadura, España.</p>
+                    <p>Debido a los constantes conflictos con los pueblos originarios de la zona y buscando tierras más fértiles y estratégicas, la ciudad fue trasladada en varias ocasiones hasta asentarse definitivamente a orillas del <strong>río Piraí</strong> a finales del siglo XVI, fusionándose con la población de San Lorenzo Real de la Frontera.</p>
+                    <p>Durante la época colonial y republicana, Santa Cruz mantuvo una identidad propia, forjando el carácter alegre, hospitalario y emprendedor del pueblo cruceño. A partir de la segunda mitad del siglo XX, experimentó un crecimiento económico y demográfico extraordinario, consolidándose hoy como el <strong>motor económico y la ciudad más poblada de Bolivia</strong>.</p>
+                    <div class="history-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1561</span>
+                            <span class="stat-label">Año de Fundación</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24 Sep</span>
+                            <span class="stat-label">Efeméride Departamental</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">Verde y Blanco</span>
+                            <span class="stat-label">Colores Patrios</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="history-image">
+                    <img src="https://comunidadescolar.com.bo/wp-content/uploads/2018/09/santa-cruz-iglesia.jpg" alt="Arquitectura histórica y naturaleza de Santa Cruz">
+                    <div class="image-caption">Patrimonio arquitectónico y calidez tropical cruceña</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Comidas Típicas -->
+    <section id="gastronomia" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Sabores de Nuestra Tierra</span>
+                <h2>Comidas Típicas</h2>
+                <div class="divider"></div>
+                <p class="section-desc">La gastronomía cruceña combina ingredientes tradicionales como el arroz, la yuca, el maíz, el charque y el queso criollo.</p>
+            </div>
+
+            <div class="food-grid">
+                <!-- Plato 1 -->
+                <article class="food-card">
+                    <div class="food-img-wrapper">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJq705jCsHgX_lF9byO_AFndt7nXp8_mm5ZHuBhVrCA&s=10" alt="Majadito Cruceño">
+                        <span class="food-tag">Plato Bandera</span>
+                    </div>
+                    <div class="food-body">
+                        <h3>Majadito de Charque</h3>
+                        <p>Delicioso arroz cocido con charque (carne deshidratada de res) desmenuzado y colorante natural de urucú. Se sirve tradicionalmente acompañado de huevo frito, plátano maduro frito y yuca cocida.</p>
+                    </div>
+                </article>
+
+                <!-- Plato 2 -->
+                <article class="food-card">
+                    <div class="food-img-wrapper">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--UNxibyZNc381N9RnYSFmNIiKYHDGpaSaosjMy0R8hE74HbITk7kdYo&s=10" alt="Locro de Gallina">
+                        <span class="food-tag">Tradicional</span>
+                    </div>
+                    <div class="food-body">
+                        <h3>Locro de Gallina Criolla</h3>
+                        <p>Sopa sustanciosa y reconfortante preparada con gallina criolla, arroz, plátano verde o maduro, papa y un toque de urucú y cebollín verde picado al momento de servir.</p>
+                    </div>
+                </article>
+
+                <!-- Plato 3 -->
+                <article class="food-card">
+                    <div class="food-img-wrapper">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsyxCfyxUE6YMzkS3PXWtPm13mx_GCEIfwXTjqkMZWjA&s=10" alt="Sonso de Yuca">
+                        <span class="food-tag">Horneado</span>
+                    </div>
+                    <div class="food-body">
+                        <h3>Sonso de Yuca</h3>
+                        <p>Puré de yuca cocida mezclado abundantemente con queso criollo rallado, moldeado en brochetas o fuentes y dorado a las brasas o al horno. Ideal para acompañar el café de la tarde.</p>
+                    </div>
+                </article>
+
+                <!-- Plato 4 -->
+                <article class="food-card">
+                    <div class="food-img-wrapper">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsgiVDEENstfc8uy2_YcstmTWtMwYwy9zj-C3Ntf1sw&s=10" alt="Cuñapé Cruceño">
+                        <span class="food-tag">Horneado Típico</span>
+                    </div>
+                    <div class="food-body">
+                        <h3>Cuñapé</h3>
+                        <p>Pequeños panecillos esponjosos por dentro y ligeramente crocantes por fuera, elaborados a base de almidón de yuca y queso fresco. Es el acompañamiento infaltable del café camba.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Curiosidades Interactivas -->
+    <section id="curiosidades" class="section bg-green-tint">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">¿Sabías qué?</span>
+                <h2>Curiosidades de Santa Cruz</h2>
+                <div class="divider"></div>
+                <p class="section-desc">Haz clic en el botón de abajo para descubrir cuatro datos fascinantes sobre la capital oriental.</p>
+            </div>
+
+            <div class="curiosities-control">
+                <button id="btnCuriosidades" class="btn btn-primary btn-large">
+                    Mostrar las 4 Curiosidades
+                </button>
+            </div>
+
+            <div id="curiosidadesContainer" class="curiosities-grid hidden">
+                <div class="curiosity-card">
+                    <div class="curiosity-number">01</div>
+                    <h3>La Ciudad de los Anillos</h3>
+                    <p>Su diseño urbano es único en Sudamérica: está planificada en forma de anillos concéntricos rodeados por avenidas radiales que parten desde el casco viejo (Plaza 24 de Septiembre).</p>
+                </div>
+
+                <div class="curiosity-card">
+                    <div class="curiosity-number">02</div>
+                    <h3>Capital de la Hospitalidad</h3>
+                    <p>Es mundialmente conocida por la calidez de su gente, resumida en su lema tradicional: <em>"Es ley del cruceño la hospitalidad"</em>, recibiendo con los brazos abiertos a visitantes de todo el mundo.</p>
+                </div>
+
+                <div class="curiosity-card">
+                    <div class="curiosity-number">03</div>
+                    <h3>Paraíso de Biodiversidad</h3>
+                    <p>Santa Cruz es una de las ciudades con mayor avistamiento de aves urbanas en el planeta y está rodeada de pulmones ecológicos como el Parque Nacional Amboró y las Lomas de Arena.</p>
+                </div>
+
+                <div class="curiosity-card">
+                    <div class="curiosity-number">04</div>
+                    <h3>El Habla Camba y sus Modismos</h3>
+                    <p>El español cruceño conserva hermosos arcaísmos castellanos mezclados con palabras de origen guaraní y chiquitano, como <em>"pahuichi"</em> (cabaña), <em>"yesca"</em> (sin dinero) o <em>"pichanga"</em> (fácil).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer id="contacto" class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="flag-icon">
+                    <span class="stripe green"></span>
+                    <span class="stripe white"></span>
+                    <span class="stripe green"></span>
+                </span>
+                <h3>Santa Cruz de la Sierra</h3>
+                <p>Orgullo, tradición y progreso del oriente boliviano.</p>
+            </div>
+            <div class="footer-info">
+                <p class="student-name">Desarrollado por: <strong>Anyela osinaga rioja</strong></p>
+                <p class="student-phone">Celular: <strong>76689845</strong></p>
+                <p class="copyright">&copy; 2026 Proyecto Web - Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
